@@ -13,7 +13,7 @@
 }
 .wrapper{
     width: 100%;
-
+    
 }
 
 .navbar{
@@ -25,7 +25,7 @@
     margin-left: 100px;
     display: flex;
     justify-content: space-around;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
 }
@@ -97,6 +97,11 @@
 
 }
 
+.section-main{
+    display: flex;
+    justify-content: space-around;
+
+}
 .main-left button{
     width: 232px;
     height: 40px;
@@ -109,4 +114,111 @@
     color:#fff;
     margin-top: 16px;
     margin-left: 100px;
+    border:none;
+
+
+    
+}
+
+.right-video video{
+    width: 458px;
+    height: 258px;
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.section-desc h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    margin-top: 56px;
+
+}
+
+.section-desc p{
+    width: 719px;
+    height: 48px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color:#000;
+    margin: 16px auto;
+}
+
+.boxes-item{
+    width: 320px;
+    height: 260px;
+    border: radius 5px;
+    margin-left: 100px;
+    text-align: center;
+  
+
+}
+
+.boxes-items{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    
+
+}
+
+.boxes-item img{
+    width: 202px;
+    height: 130px;
+
+
+}
+.boxes-item h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color:#000;
+    padding-top: 16px;
+
+
+}
+
+.boxes-item p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:#000;
+
+}
+
+.box-links{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 16px;
+    text-align: center;
+    margin-top: 40px;  
+    
+}
+.btn-order{
+    width: 167px;
+    height: 40px;
+    border-radius: 5px;
+    border:none;
+    padding: 8px 16px;
+    background-color:#00BAFC;
+    color:#fff;
+    text-align: center;
+
+
+}
+
+.btn-order a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color:#00BAFC;
+
 }
