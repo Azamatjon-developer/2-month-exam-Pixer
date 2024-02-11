@@ -19,6 +19,8 @@
 }
 
 /* Wrapper umumiy hammasini orab turadi finish */
+
+
 /*  Navbar starts  */
 .navbar{
     width: 90%;
@@ -47,6 +49,8 @@
     display: flex;
     align-items:center;
     gap: 32px;
+    font-family: "open-sans";
+
 }
 
 .navbar-items a{
@@ -54,19 +58,11 @@
     font-size: 15px;
     line-height: 24px;    
     color:#000;
+    font-family: "open-sans";
+
 }
 
-.btn{
-    width: 159px;
-    height: 40px;
-    background-color:red;
-    color:#fff;
-    border-radius: 5px;
-    border:none;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 24px;
-}
+
 
 /*  Navbar finish  */
 
@@ -75,7 +71,7 @@
 
 .section-main{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 @font-face {
@@ -95,6 +91,7 @@
     margin-left: 100px;
     font-family: "open-sans";
 }
+
 
 .main-left p{
     width: 465px;
@@ -122,6 +119,8 @@
     margin-top: 16px;
     margin-left: 100px;
     border:none;
+    font-family: "open-sans";
+
 }
 
 .right-video video{
@@ -275,7 +274,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
     color:#000;
     font-family: "open-sans";
 
@@ -306,7 +304,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
     color:#000;
     font-family: "open-sans";
 
@@ -348,7 +345,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
     color:#000;
     font-family: "open-sans";
 
@@ -377,7 +373,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
-    text-align: center;
+    /* text-align: center; */
     color:#000;
     font-family: "open-sans";
 
@@ -409,6 +405,26 @@
     margin-top: 48px;
 }
 
+.support-right h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color:#000;
+    font-family: "open-sans";
+
+}
+.support-right p{
+    width: 719px;
+    height: 24px;
+    font-weight: 400;
+    color:#000;
+    font-family: "open-sans";
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 8px;
+
+}
+
 /* section support finish  */
 
 /* section button starts  */
@@ -427,10 +443,11 @@
     font-weight: 700;
     font-size: 16px;
     color:#fff;
-    padding: 8px 16px;
     line-height: 24px;
     cursor: pointer;
     font-family: "open-sans";
+    border:none;
+    border-radius: 5px;
 
 }
 /* section button finish   */
@@ -440,6 +457,10 @@
     height: 543px;
     background-color:#00BAFC;
     margin-top: 56px;
+
+}
+.section-order-desc{
+    padding-top: 56px;
 }
 
 .section-order-desc h3{
@@ -448,6 +469,7 @@
     line-height: 31px;
     text-align: center;
     color:#fff;
+    margin-top: 56px;
     font-family: "open-sans";
 
 }
@@ -525,7 +547,8 @@
     height: 338px;
     background-color:#191919;
     display: flex;
-    gap: 100px;
+    gap: 170px;
+    padding-left: 100px;
 }
 
 .footer-desc h3{
@@ -582,14 +605,14 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-}
+    padding-top: 56px;
 
+}
 .footer-social h3{
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
     color: #fff;
-    padding-top: 56px;
     font-family: "open-sans";
 
 }
