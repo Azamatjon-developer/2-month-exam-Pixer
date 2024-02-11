@@ -79,6 +79,12 @@
     justify-content: space-around;
 }
 
+@font-face {
+    font-family: "open-sans";
+    src: url(./Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+
 .main-left h2{
     width: 470px;
     height: 78px;
@@ -88,6 +94,7 @@
     color:#000;
     margin-top: 97px;
     margin-left: 100px;
+    font-family: "open-sans";
 }
 
 .main-left p{
@@ -99,6 +106,8 @@
     color:#000;
     margin-top: 16px;
     margin-left: 100px;
+    font-family: "open-sans";
+
 }
 
 .main-left button{
@@ -132,6 +141,7 @@
     line-height: 31px;
     text-align: center;
     margin-top: 56px;
+    font-family: "open-sans";
 }
 
 .section-desc p{
@@ -143,6 +153,8 @@
     line-height: 24px;
     color:#000;
     margin: 16px auto;
+    font-family: "open-sans";
+
 }
 
 .boxes-items{
@@ -160,6 +172,8 @@
     border: radius 5px;
     margin-left: 100px;
     text-align: center;
+    font-family: "open-sans";
+
 }
 
 
@@ -173,6 +187,8 @@
     line-height: 26px;
     color:#000;
     padding-top: 16px;
+    font-family: "open-sans";
+
 }
 
 .boxes-item p{
@@ -180,6 +196,8 @@
     font-size: 16px;
     line-height: 24px;
     color:#000;
+    font-family: "open-sans";
+
 }
 /* section boxes finish */
 
@@ -191,6 +209,8 @@
     gap: 16px;
     text-align: center;
     margin-top: 40px;  
+    font-family: "open-sans";
+
 }
 .btn-order{
     width: 167px;
@@ -201,6 +221,8 @@
     background-color:#00BAFC;
     color:#fff;
     text-align: center;
+    font-family: "open-sans";
+
 }
 
 .btn-order a{
@@ -209,6 +231,8 @@
     line-height: 24px;
     text-align: center;
     color:#00BAFC;
+    font-family: "open-sans";
+
 }
 /* box links  finish */
 
@@ -220,6 +244,8 @@
     text-align: center;
     color:#000;
     margin-top: 56px;
+    font-family: "open-sans";
+
 }
 .servises-desc p{
     width: 719px;
@@ -229,6 +255,7 @@
     line-height: 24px;
     text-align: center;
     color:#000;
+    font-family: "open-sans";
     margin: 16px auto;
 }
 
@@ -251,6 +278,8 @@
     line-height: 26px;
     text-align: center;
     color:#000;
+    font-family: "open-sans";
+
 }
 .servises-desc-right p{
     width: 493px;
@@ -259,6 +288,8 @@
     font-size: 16px;
     line-height: 24px;
     margin-top: 8px;
+    font-family: "open-sans";
+
 }
 /* section-servises finish  */
 
@@ -278,6 +309,8 @@
     line-height: 26px;
     text-align: center;
     color:#000;
+    font-family: "open-sans";
+
 }
 
 .section-left p{
@@ -288,6 +321,8 @@
     line-height: 24px;
     color:#000;
     margin-top: 8px;
+    font-family: "open-sans";
+
 }
 
 .section-right img{
@@ -316,6 +351,8 @@
     line-height: 26px;
     text-align: center;
     color:#000;
+    font-family: "open-sans";
+
 }
 
 .section-deadline-right p{
@@ -324,6 +361,8 @@
     line-height: 24px;
     color:#000;
     margin-top: 8px;
+    font-family: "open-sans";
+
 }
 /* secction deadline finish  */
 
@@ -341,6 +380,8 @@
     line-height: 26px;
     text-align: center;
     color:#000;
+    font-family: "open-sans";
+
 }
 .quality-left p{
     width: 719px;
@@ -350,6 +391,8 @@
     line-height: 24px;
     color:#000;
     margin-top: 8px;
+    font-family: "open-sans";
+
 }
 .quality-right img{
     width: 300px;
@@ -375,6 +418,7 @@
     justify-content: center;
     align-items:center;
     margin-top: 40px;
+
 }
 .btn{
     width: 167px;
@@ -387,6 +431,8 @@
     padding: 8px 16px;
     line-height: 24px;
     cursor: pointer;
+    font-family: "open-sans";
+
 }
 /* section button finish   */
 
@@ -403,6 +449,8 @@
     line-height: 31px;
     text-align: center;
     color:#fff;
+    font-family: "open-sans";
+
 }
 
 .section-order-desc p{
@@ -414,6 +462,8 @@
     text-align: center;
     color:#fff;
     margin: 16px auto;
+    font-family: "open-sans";
+
 }
 
 .section-order-form{
@@ -436,6 +486,8 @@
     font-size: 16px;
     font-weight: 400;
     color:#000;
+    font-family: "open-sans";
+
 }
 .section-order-form select{
     width: 300px;
@@ -484,6 +536,8 @@
     color:#fff;
     padding-top: 56px;
     padding-left: 100px;
+    font-family: "open-sans";
+
 }
 
 .footer-desc p{
@@ -495,6 +549,8 @@
     line-height: 24px;
     color:#fff;
     padding-left: 100px;
+    font-family: "open-sans";
+
 }
 .footer-title{
     display: flex;
@@ -507,6 +563,8 @@
     line-height: 26px;
     color:#fff;
     padding-top: 56px;
+    font-family: "open-sans";
+
 }
 .footer-title p{
     width: 87px;
@@ -515,6 +573,8 @@
     font-size: 16px;
     line-height: 24px;
     color:#fff;
+    font-family: "open-sans";
+
 }
  /* section footer finish  */
 
@@ -531,12 +591,16 @@
     line-height: 26px;
     color: #fff;
     padding-top: 56px;
+    font-family: "open-sans";
+
 }
 
 .footer-social a{
     font-weight: 400;
     font-size: 16px;
     color:#fff;
+    font-family: "open-sans";
+
 }
 
 /* footer social finish  */
